@@ -1,0 +1,15 @@
+Package: textcleaner
+Title: A Package to Prepare and Clean Text Data for Bag of Words
+Version: 0.0.0.9000
+Authors@R: person("Verity", "Gribble",email = "vgrbbl@yahoo.com", role = c("aut","cre"))
+Description: The package wordClean is intended to prepare and clean data ready
+                   for use for bag of words.  It removes stopwords, punctiuation
+                   numbers, converts text to lowercase, and creates a word corpus
+                   , vector source and term document matrix for textual data.  
+Depends: R (>= 3.3)
+Imports: tm
+License: CC0
+Encoding:UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3.9000
+lazydata: true
